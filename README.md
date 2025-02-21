@@ -6,7 +6,7 @@
 This repository provides a deep learning framework to predict **Major Adverse Cardiovascular Events (MACE)** in patients after **Liver Transplantation (LT)**. It is based on methods described in the paper:
 
 > **Deep Learning–Based Prediction Modeling of Major Adverse Cardiovascular Events After Liver Transplantation**  
-> *Abdelhameed, A et.al ... (2024)
+> *Abdelhameed, A., Bhangu, H., Feng, J., Li, F., Hu, X., Patel, P., Yang, L., & Tao, C. (2024)
 
 This project aims to showcase the end-to-end pipeline:
 1. Data preprocessing  
