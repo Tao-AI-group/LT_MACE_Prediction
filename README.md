@@ -1,7 +1,5 @@
 # Deep Learning–Based Prediction of Major Adverse Cardiovascular Events (MACE) After Liver Transplantation
 
-**Authors**:  
-Ahmed Abdelhameed, Harpreet Bhangu, Jingna Feng, Fang Li, Xinyue Hu, Parag Patel, Liu Yang, Cui Tao
 
 ## Overview
 
