@@ -1,6 +1,6 @@
 # Deep Learning–Based Prediction of Major Adverse Cardiovascular Events (MACE) After Liver Transplantation
 
-**Repository:** [Tao-AI-group/MCI-to-AD-Progression-Model](https://github.com/Tao-AI-group/LT_MACE_Prediction)
+**Repository:** [Tao-AI-group/LT_MACE_Prediction](https://github.com/Tao-AI-group/LT_MACE_Prediction)
 
 ## Overview
 
