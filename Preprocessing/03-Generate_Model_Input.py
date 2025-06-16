@@ -209,8 +209,13 @@ def get_specific_file_input_dic(
                     continue
         
                 code = f"{config['prefix']}{row[code_idx]}"
+
+                list_item = [patient_id, code, enc_dict[encounter_id]]
+                if count < 5:
+                    print(list_item)
+                    count += 1
                 
-                data_lists.append([patient_id, code, enc_dict[encounter_id]])
+                data_lists.append(list_item)
                 
         print(f"Processed {len(data_lists)} {file_type} records")
         return data_lists
@@ -413,7 +418,7 @@ def process_and_split_data(
 
 if __name__ == "__main__":
     # 1. Setup paths
-    outcome_input_common_path = get_common_path('../../Data/')
+    outcome_input_common_path = get_common_path('../../Data_V2/')
     input_files = {
         'encounters': outcome_input_common_path + 'patients_encounters_15_New.csv',
         'diagnosis': outcome_input_common_path + 'mod_diagnosis.csv',
